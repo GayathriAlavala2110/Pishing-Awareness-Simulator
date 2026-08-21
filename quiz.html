@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Safe or Phishing? Quiz</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>🛡️ Safe or Phishing?</h1>
+    <p>Choose the answer that you think is safest.</p>
+</header>
+
+<main class="quiz-container">
+<main class="quiz-container">
+
+{% if quiz_complete %}
+
+    <div class="quiz-card">
+
+        <h2>🎉 Quiz Completed!</h2>
+
+        <p>You have completed all 8 questions in this attempt.</p>
+        <h1>{{ score }}/{{ total }}</h1>
+        <p>🏆 Your phishing awareness score</p>
+
+        <a href="/quiz" class="learn-btn">
+            Start New Quiz →
+        </a>
+
+        <br><br>
+
+        <a href="/" class="learn-btn">
+            Back to Learning Modules
+        </a>
+
+    </div>
+
+{% else %}
+
+    <div class="quiz-card">
+
+        <h2>Question{{ session.question_count }}/100</h2>
+        <h2>{{ question.question }}</h2>
+
+
+        <form method="POST">
+
+            {% for option in question.options %}
+
+            <label class="option">
+                <input
+                    type="radio"
+                    name="answer"
+                    value="{{ option }}"
+                    required>
+
+                {{ option }}
+            </label>
+
+            {% endfor %}
+
+            <h3>🧠 Why did you choose this answer?</h3>
+
+            <textarea
+                name="user_reason"
+                rows="4"
+                placeholder="Explain why you selected this option..."
+                required></textarea>
+
+            <br><br>
+
+            <button type="submit" class="learn-btn">
+                Submit Answer
+            </button>
+
+        </form>
+
+        {% if feedback %}
+
+        <div class="feedback">
+
+            <h2>📋 Feedback</h2>
+
+            <p>
+                <strong>Your Answer:</strong>
+                {{ selected_answer }}
+            </p>
+
+            <p>
+                <strong>Your Reason:</strong>
+                {{ user_reason }}
+            </p>
+
+            {% if correct %}
+                <h3>✅ Correct Answer!</h3>
+            {% else %}
+                <h3>❌ Not Quite Right</h3>
+            {% endif %}
+
+            <p>
+                <strong>Correct Answer:</strong>
+                {{ question.answer }}
+            </p>
+
+            <h3>🚩 Red Flags</h3>
+
+            <ul>
+                {% for flag in question.red_flags %}
+                <li>{{ flag }}</li>
+                {% endfor %}
+            </ul>
+
+            <h3>💡 Why?</h3>
+
+            <p>{{ question.explanation }}</p>
+
+            <h3>✅ Safe Next Step</h3>
+
+            <p>{{ question.safe_action }}</p>
+
+            <br>
+
+            <a href="/quiz" class="learn-btn">
+                Next Question →
+            </a>
+
+        </div>
+
+        {% endif %}
+
+    </div>
+{% endif %}
+
+</main>
+
+</body>
+</html>
