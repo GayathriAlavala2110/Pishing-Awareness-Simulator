@@ -1,0 +1,1770 @@
+[
+    {
+        "question": "You receive a message saying your account will be blocked unless you click a link immediately. What should you do?",
+        "options": [
+            "Click the link immediately",
+            "Reply with your password",
+            "Ignore the link and verify through the official app",
+            "Forward the message to friends"
+        ],
+        "answer": "Ignore the link and verify through the official app",
+        "red_flags": [
+            "Urgent threat",
+            "Suspicious link",
+            "Pressure to act immediately"
+        ],
+        "safe_action": "Do not click the link. Verify the message through the organization's official website or app.",
+        "explanation": "The message creates urgency and uses a suspicious link. Verifying through the official app avoids interacting with a potentially fraudulent link."
+    },
+    {
+        "question": "You receive an SMS claiming you have won a prize and asking you to open a link. What is the safest action?",
+        "options": [
+            "Open the link and claim the prize",
+            "Share the message with friends",
+            "Ignore the link and verify the offer through an official source",
+            "Reply with your personal details"
+        ],
+        "answer": "Ignore the link and verify the offer through an official source",
+        "red_flags": [
+            "Unexpected prize",
+            "Suspicious link",
+            "Request for personal information"
+        ],
+        "safe_action": "Do not open the link. Check whether the offer exists on the organization's official website.",
+        "explanation": "Unexpected prize messages combined with links and requests for information are common warning signs of smishing."
+    },
+    {
+        "question": "Someone calls claiming to be from your bank and asks for your OTP. What should you do?",
+        "options": [
+            "Give the OTP because the caller knows your name",
+            "Read the OTP slowly to the caller",
+            "End the call and contact the bank using an official number",
+            "Send the OTP by text message"
+        ],
+        "answer": "End the call and contact the bank using an official number",
+        "red_flags": [
+            "Unexpected phone call",
+            "Request for an OTP",
+            "Caller claims to be a bank employee"
+        ],
+        "safe_action": "Never share an OTP with an unexpected caller. Contact the bank through an official channel.",
+        "explanation": "An OTP is used to verify an action or login. An unexpected caller asking for it is a strong warning sign."
+    },
+    {
+        "question": "A WhatsApp contact sends you a message saying you have won a competition and asks for a small payment to receive the prize. What should you do?",
+        "options": [
+            "Send the payment immediately",
+            "Ask the contact for your OTP",
+            "Verify the competition through an official source before doing anything",
+            "Forward your bank details"
+        ],
+        "answer": "Verify the competition through an official source before doing anything",
+        "red_flags": [
+            "Unexpected prize",
+            "Request for payment",
+            "Unverified WhatsApp message"
+        ],
+        "safe_action": "Do not send money or sensitive information. Verify the competition independently.",
+        "explanation": "Unexpected prize claims combined with payment requests are warning signs of a possible scam."
+    },
+    {
+        "question": "Which is a warning sign that a website link may be suspicious?",
+        "options": [
+            "The address is entered directly from a trusted source",
+            "The domain contains unexpected spelling or characters",
+            "The website is accessed through an official app",
+            "The website address is independently verified"
+        ],
+        "answer": "The domain contains unexpected spelling or characters",
+        "red_flags": [
+            "Misspelled domain",
+            "Unexpected characters",
+            "Unfamiliar website address"
+        ],
+        "safe_action": "Check the website address carefully and use the organization's official website when possible.",
+        "explanation": "Attackers may create domains that look similar to legitimate websites to deceive users."
+    },
+    {
+        "question": "You receive an unexpected email attachment from an unknown sender. What is the safest action?",
+        "options": [
+            "Open it to see what it contains",
+            "Download it and forward it to someone",
+            "Avoid opening it and verify the sender independently",
+            "Disable your security software before opening it"
+        ],
+        "answer": "Avoid opening it and verify the sender independently",
+        "red_flags": [
+            "Unknown sender",
+            "Unexpected attachment",
+            "Potentially unsafe file"
+        ],
+        "safe_action": "Do not open unexpected attachments. Verify the sender through a trusted channel.",
+        "explanation": "Unexpected attachments can contain harmful software or fraudulent content."
+    },
+    {
+        "question": "Which password practice is safest?",
+        "options": [
+            "Use the same password for every account",
+            "Use your name and date of birth",
+            "Use strong, unique passwords for important accounts",
+            "Share your password with a trusted friend"
+        ],
+        "answer": "Use strong, unique passwords for important accounts",
+        "red_flags": [
+            "Password reuse",
+            "Easy-to-guess information",
+            "Password sharing"
+        ],
+        "safe_action": "Use strong, unique passwords and consider using a reputable password manager.",
+        "explanation": "Using unique passwords reduces the risk that one compromised password will affect multiple accounts."
+    },
+    {
+        "question": "You receive an unexpected notification asking you to approve a login through multi-factor authentication. What should you do?",
+        "options": [
+            "Approve it immediately",
+            "Ignore the request and check your account security",
+            "Share the verification code with someone",
+            "Send the notification to a stranger"
+        ],
+        "answer": "Ignore the request and check your account security",
+        "red_flags": [
+            "Unexpected login request",
+            "Unrecognized authentication attempt",
+            "Possible unauthorized access"
+        ],
+        "safe_action": "Do not approve an unexpected login request. Review your account and change your password if necessary.",
+        "explanation": "An unexpected authentication request may indicate that someone else is attempting to access the account."
+
+    },
+    {
+    "question": "You receive an email saying your bank account will be closed today unless you verify your details using a link. What should you do?",
+    "options": [
+        "Click the link and enter your details",
+        "Reply with your account information",
+        "Contact the bank through its official website or app",
+        "Forward the email to someone else"
+    ],
+    "answer": "Contact the bank through its official website or app",
+    "red_flags": [
+        "Urgent deadline",
+        "Request for sensitive information",
+        "Untrusted link"
+    ],
+    "safe_action": "Do not use the link. Contact the bank through an official channel.",
+    "explanation": "Urgency and requests for sensitive information are common phishing warning signs."
+},
+{
+    "question": "A text message says you have an unpaid delivery fee and provides a link to pay it. What is the safest response?",
+    "options": [
+        "Open the link and pay immediately",
+        "Verify the delivery through the company's official app or website",
+        "Send your card details by SMS",
+        "Forward the message to your contacts"
+    ],
+    "answer": "Verify the delivery through the company's official app or website",
+    "red_flags": [
+        "Unexpected payment request",
+        "Suspicious link",
+        "Pressure to pay"
+    ],
+    "safe_action": "Avoid the link and check the delivery using an official source.",
+    "explanation": "Unexpected payment messages containing links may be smishing attempts."
+},
+{
+    "question": "Someone calls claiming to be from your bank and asks for your one-time password. What should you do?",
+    "options": [
+        "Give the OTP to the caller",
+        "Read the OTP slowly to confirm it",
+        "End the call and contact the bank using an official number",
+        "Send the OTP by message"
+    ],
+    "answer": "End the call and contact the bank using an official number",
+    "red_flags": [
+        "Unexpected phone call",
+        "Request for OTP",
+        "Impersonation"
+    ],
+    "safe_action": "Never share an OTP with a caller. Contact the bank through an official channel.",
+    "explanation": "An OTP is a security credential and should not be shared with someone who calls unexpectedly."
+},
+{
+    "question": "A WhatsApp contact you do not know sends a message offering a job and asks you to pay a registration fee. What should you do?",
+    "options": [
+        "Pay the fee immediately",
+        "Send your identity documents",
+        "Verify the job through an official company source",
+        "Share the message with everyone"
+    ],
+    "answer": "Verify the job through an official company source",
+    "red_flags": [
+        "Unexpected job offer",
+        "Request for payment",
+        "Unknown contact"
+    ],
+    "safe_action": "Do not send money or sensitive information until the offer is independently verified.",
+    "explanation": "Unexpected job offers that require payment can be a warning sign of a scam."
+
+},
+{
+    "question": "You receive a message saying you have won a large prize in a contest you never entered. What should you do?",
+    "options": [
+        "Pay a fee to receive the prize",
+        "Click the prize link",
+        "Verify the claim through an official source",
+        "Send your bank details"
+    ],
+    "answer": "Verify the claim through an official source",
+    "red_flags": [
+        "Unexpected prize",
+        "Request for payment",
+        "Suspicious link"
+    ],
+    "safe_action": "Do not pay or provide personal information. Verify the offer independently.",
+    "explanation": "Unexpected prizes that require payment or personal information are common scam warning signs."
+},
+{
+    "question": "Which website address is most suspicious?",
+    "options": [
+        "A website you typed from a trusted source",
+        "A familiar official domain",
+        "A misspelled domain pretending to be a trusted company",
+        "A website opened from your saved bookmark"
+    ],
+    "answer": "A misspelled domain pretending to be a trusted company",
+    "red_flags": [
+        "Misspelled domain",
+        "Imitation of a trusted company",
+        "Suspicious URL"
+    ],
+    "safe_action": "Check the domain carefully and use the official website address instead.",
+    "explanation": "Attackers may create look-alike domains with spelling changes to deceive users."
+},
+{
+    "question": "You receive an attachment from an unknown sender with the message 'Open this urgently.' What should you do?",
+    "options": [
+        "Open the attachment immediately",
+        "Download it and scan it later",
+        "Avoid opening it and verify the sender",
+        "Forward it to a friend"
+    ],
+    "answer": "Avoid opening it and verify the sender",
+    "red_flags": [
+        "Unknown sender",
+        "Unexpected attachment",
+        "Urgent request"
+    ],
+    "safe_action": "Do not open unexpected attachments. Verify the sender through a trusted method.",
+    "explanation": "Unexpected attachments can contain malicious files, especially when combined with urgency."
+},
+{
+    "question": "What is a good practice when creating passwords?",
+    "options": [
+        "Use the same password everywhere",
+        "Use short and simple passwords",
+        "Use strong and unique passwords for different accounts",
+        "Share passwords with trusted friends"
+    ],
+    "answer": "Use strong and unique passwords for different accounts",
+    "red_flags": [
+        "Password reuse",
+        "Weak passwords",
+        "Sharing passwords"
+    ],
+    "safe_action": "Use strong, unique passwords and keep them private.",
+    "explanation": "Unique strong passwords reduce the impact if one account's password is compromised."
+},
+{
+    "question": "What does multi-factor authentication provide?",
+    "options": [
+        "An additional verification step",
+        "A way to remove passwords",
+        "A method to share account access",
+        "A way to make every website public"
+    ],
+    "answer": "An additional verification step",
+    "red_flags": [
+        "No second verification",
+        "Relying only on a password"
+    ],
+    "safe_action": "Enable MFA on important accounts whenever it is available.",
+    "explanation": "MFA adds another verification step, making unauthorized access more difficult."
+},
+{
+    "question": "You receive a message asking you to send your verification code to 'confirm your account.' What should you do?",
+    "options": [
+        "Send the code immediately",
+        "Share the code with the sender",
+        "Keep the code private and verify through the official service",
+        "Post the code in a group"
+    ],
+    "answer": "Keep the code private and verify through the official service",
+    "red_flags": [
+        "Request for verification code",
+        "Unknown sender",
+        "Account-related pressure"
+    ],
+    "safe_action": "Never share verification codes. Use the official service to check your account.",
+    "explanation": "Verification codes are security credentials and should not be disclosed to unexpected contacts."
+},
+{
+    "question": "What is ransomware?",
+    "options": [
+        "A tool for creating strong passwords",
+        "Malware that can make files or systems inaccessible",
+        "A legitimate backup service",
+        "A type of MFA"
+    ],
+    "answer": "Malware that can make files or systems inaccessible",
+    "red_flags": [
+        "Malicious software",
+        "Files becoming inaccessible",
+        "Extortion demand"
+    ],
+    "safe_action": "Keep important software updated and maintain reliable backups.",
+    "explanation": "Ransomware is a type of malware that can prevent access to data or systems and may demand payment."
+},
+{
+    "question": "What is the safest action when you receive a suspicious phishing message?",
+    "options": [
+        "Click the link to investigate",
+        "Reply to ask whether it is real",
+        "Avoid interacting with it and report it through the appropriate channel",
+        "Forward it to other people"
+    ],
+    "answer": "Avoid interacting with it and report it through the appropriate channel",
+    "red_flags": [
+        "Suspicious message",
+        "Potential malicious link",
+        "Unexpected request"
+    ],
+    "safe_action": "Do not click links or provide information. Report the suspicious message through the appropriate service.",
+    "explanation": "Avoiding interaction reduces the risk of following a malicious link or revealing sensitive information."
+},
+{
+    "question": "A friend sends you a WhatsApp message asking for money because of an emergency. What should you do first?",
+    "options": [
+        "Send the money immediately",
+        "Verify the request using another trusted method",
+        "Share your bank details",
+        "Forward the request to others"
+    ],
+    "answer": "Verify the request using another trusted method",
+    "red_flags": [
+        "Unexpected money request",
+        "Emergency story",
+        "Pressure to act quickly"
+    ],
+    "safe_action": "Contact your friend through a trusted method before sending money.",
+    "explanation": "A scammer may impersonate someone you know. Independent verification helps confirm the request is genuine."
+},
+{
+    "question": "Which action can help protect you from malicious links?",
+    "options": [
+        "Click every link from known-looking messages",
+        "Check the destination and use official websites when possible",
+        "Disable all security features",
+        "Share links before checking them"
+    ],
+    "answer": "Check the destination and use official websites when possible",
+    "red_flags": [
+        "Unknown destination",
+        "Unexpected links",
+        "Look-alike websites"
+    ],
+    "safe_action": "Check links carefully and navigate directly to trusted official websites.",
+    "explanation": "Checking the destination and using official websites reduces the chance of visiting a fraudulent page."
+},
+{
+    "question": "What is malware?",
+    "options": [
+        "Software designed to perform harmful or unauthorized actions",
+        "A secure password manager",
+        "A type of legitimate software update",
+        "A method of backing up files"
+    ],
+    "answer": "Software designed to perform harmful or unauthorized actions",
+    "red_flags": [
+        "Harmful software",
+        "Unauthorized activity",
+        "Potential data theft"
+    ],
+    "safe_action": "Keep security software and operating systems updated and avoid untrusted downloads.",
+    "explanation": "Malware is malicious software that can harm devices, steal information, or perform unauthorized actions."
+},
+{
+    "question": "You receive an email attachment you were not expecting from someone you know. What is the safest approach?",
+    "options": [
+        "Open it immediately because you know the sender",
+        "Verify with the sender before opening it",
+        "Forward it to another person",
+        "Disable your security software before opening it"
+    ],
+    "answer": "Verify with the sender before opening it",
+    "red_flags": [
+        "Unexpected attachment",
+        "Possible compromised account",
+        "Unknown file contents"
+    ],
+    "safe_action": "Confirm that the sender actually intended to send the attachment before opening it.",
+    "explanation": "A known person's account could be compromised, so an unexpected attachment should still be verified."
+},
+{
+    "question": "A website asks you to enter your password after you clicked a link in an unexpected email. What should you do?",
+    "options": [
+        "Enter the password immediately",
+        "Use the same password again to confirm it",
+        "Leave the page and access the service through its official website or app",
+        "Send the password to customer support"
+    ],
+    "answer": "Leave the page and access the service through its official website or app",
+    "red_flags": [
+        "Unexpected login request",
+        "Link-based password request",
+        "Possible fake website"
+    ],
+    "safe_action": "Do not enter your password on the suspicious page. Use the official service directly.",
+    "explanation": "A phishing page may imitate a legitimate login page to collect passwords."
+},
+{
+    "question": "Which message is most likely to be a phishing warning sign?",
+    "options": [
+        "A routine notification you expected",
+        "A message creating urgency and asking for sensitive information",
+        "A security reminder from an official app",
+        "A receipt for a purchase you made"
+    ],
+    "answer": "A message creating urgency and asking for sensitive information",
+    "red_flags": [
+        "Urgency",
+        "Sensitive information request",
+        "Unexpected message"
+    ],
+    "safe_action": "Pause and independently verify urgent requests before taking action.",
+    "explanation": "Urgency combined with a request for sensitive information is a common phishing warning sign."
+},
+{
+    "question": "What should you do if you accidentally provide information to a suspected scammer?",
+    "options": [
+        "Ignore the situation completely",
+        "Share more information to explain",
+        "Report the incident and take appropriate account-security steps",
+        "Forward the scam to your contacts"
+    ],
+    "answer": "Report the incident and take appropriate account-security steps",
+    "red_flags": [
+        "Information already shared",
+        "Possible account compromise",
+        "Suspicious interaction"
+    ],
+    "safe_action": "Report the incident promptly and follow the affected service's account-security guidance.",
+    "explanation": "Prompt reporting and appropriate security actions can help reduce further risk."
+},
+{
+    "question": "Why should you avoid reusing the same password on multiple accounts?",
+    "options": [
+        "It makes passwords easier to remember",
+        "One compromised password could put multiple accounts at risk",
+        "It prevents MFA from working",
+        "It makes websites load slowly"
+    ],
+    "answer": "One compromised password could put multiple accounts at risk",
+    "red_flags": [
+        "Password reuse",
+        "Multiple accounts using one credential",
+        "Greater impact from a breach"
+    ],
+    "safe_action": "Use a different strong password for each important account.",
+    "explanation": "If a reused password is exposed, attackers may try it on other accounts."
+},
+{
+    "question": "A message says you must pay immediately to prevent your account from being suspended. What is the safest response?",
+    "options": [
+        "Pay using the link in the message",
+        "Reply with your account details",
+        "Verify the warning through the official service",
+        "Forward the message to your friends"
+    ],
+    "answer": "Verify the warning through the official service",
+    "red_flags": [
+        "Urgent threat",
+        "Immediate payment request",
+        "Suspicious message"
+    ],
+    "safe_action": "Do not use the message link. Check your account directly through the official service.",
+    "explanation": "Scammers often use threats of account suspension to pressure people into acting without checking."
+},
+{
+    "question": "Which of these is a safe way to check whether a bank message is genuine?",
+    "options": [
+        "Use the link provided in the message",
+        "Call a number provided by the message",
+        "Open the bank's official app or website independently",
+        "Reply to the message asking for confirmation"
+    ],
+    "answer": "Open the bank's official app or website independently",
+    "red_flags": [
+        "Message-provided link",
+        "Unverified contact information",
+        "Request for account action"
+    ],
+    "safe_action": "Access the bank using an official app, website, or trusted contact method.",
+    "explanation": "Using an independently accessed official channel avoids relying on potentially fraudulent links or contact details."
+},
+{
+    "question": "A caller says they are technical support and asks you to install software so they can fix your computer. What should you do?",
+    "options": [
+        "Install the software immediately",
+        "Give the caller remote access",
+        "End the call and verify the support request through an official channel",
+        "Give the caller your password"
+    ],
+    "answer": "End the call and verify the support request through an official channel",
+    "red_flags": [
+        "Unexpected support call",
+        "Remote-access request",
+        "Request to install software"
+    ],
+    "safe_action": "Do not install unknown software or provide remote access based on an unsolicited call.",
+    "explanation": "Unsolicited technical-support calls can be used to trick people into giving attackers access to their devices."
+},
+{
+    "question": "What should you do before downloading software from an unfamiliar website?",
+    "options": [
+        "Download it immediately",
+        "Check whether the source is trustworthy and use an official source when possible",
+        "Disable security protections",
+        "Download several copies"
+    ],
+    "answer": "Check whether the source is trustworthy and use an official source when possible",
+    "red_flags": [
+        "Unfamiliar website",
+        "Untrusted download",
+        "Unknown software source"
+    ],
+    "safe_action": "Prefer official sources and verify software before downloading or installing it.",
+    "explanation": "Untrusted downloads can contain malware or unwanted software."
+},
+{
+    "question": "You receive a WhatsApp message from an unknown number claiming to be a delivery company and asking for your address and OTP. What should you do?",
+    "options": [
+        "Send the requested details",
+        "Send only the OTP",
+        "Verify the delivery through the company's official website or app",
+        "Forward the message to a friend"
+    ],
+    "answer": "Verify the delivery through the company's official website or app",
+    "red_flags": [
+        "Unknown number",
+        "Request for OTP",
+        "Unexpected delivery message"
+    ],
+    "safe_action": "Do not share the OTP. Check the delivery independently through an official source.",
+    "explanation": "An unexpected request for an OTP from an unknown contact is a strong warning sign."
+},
+{
+    "question": "Which password is generally safer?",
+    "options": [
+        "12345678",
+        "password123",
+        "A long, unique password that is not reused",
+        "Your name and birth year"
+    ],
+    "answer": "A long, unique password that is not reused",
+    "red_flags": [
+        "Short password",
+        "Common password",
+        "Personal information"
+    ],
+    "safe_action": "Use long, unique passwords and keep them private.",
+    "explanation": "Long, unique passwords are harder to guess and reduce the risk from password reuse."
+},
+{
+    "question": "An email asks you to download an attachment to receive a refund you were not expecting. What should you do?",
+    "options": [
+        "Download the attachment immediately",
+        "Open it on your phone",
+        "Verify the refund through the company's official website or app",
+        "Forward the attachment to another person"
+    ],
+    "answer": "Verify the refund through the company's official website or app",
+    "red_flags": [
+        "Unexpected refund",
+        "Unrequested attachment",
+        "Possible malicious file"
+    ],
+    "safe_action": "Do not open unexpected attachments. Verify the refund independently.",
+    "explanation": "Unexpected attachments can be used to deliver malware or direct users to fraudulent sites."
+},
+{
+    "question": "Why is it useful to enable MFA on an important account?",
+    "options": [
+        "It removes the need for account security",
+        "It provides an additional verification step",
+        "It allows passwords to be shared",
+        "It makes suspicious links safe"
+    ],
+    "answer": "It provides an additional verification step",
+    "red_flags": [
+        "Password-only protection",
+        "No additional verification"
+    ],
+    "safe_action": "Enable MFA on important accounts whenever the service provides it.",
+    "explanation": "MFA adds another verification step, providing protection beyond the password alone."
+},
+{
+    "question": "You receive an SMS saying your mobile service will be disconnected unless you click a link. What should you do?",
+    "options": [
+        "Click the link immediately",
+        "Reply with your personal details",
+        "Check your account through the provider's official app or website",
+        "Forward the message to your contacts"
+    ],
+    "answer": "Check your account through the provider's official app or website",
+    "red_flags": [
+        "Threat of disconnection",
+        "Urgent request",
+        "Suspicious link"
+    ],
+    "safe_action": "Do not click the SMS link. Verify your account independently through the provider's official channel.",
+    "explanation": "Threats combined with urgent links are common warning signs of smishing."
+},
+{
+    "question": "A social media message tells you that you have been selected for a special reward and asks for your login password. What should you do?",
+    "options": [
+        "Send the password",
+        "Click the reward link",
+        "Ignore the request and verify the offer through the official platform",
+        "Ask the sender to store your password"
+    ],
+    "answer": "Ignore the request and verify the offer through the official platform",
+    "red_flags": [
+        "Unexpected reward",
+        "Password request",
+        "Unverified sender"
+    ],
+    "safe_action": "Never share your password. Check offers through the platform's official channels.",
+    "explanation": "Legitimate services should not require you to disclose your password to an unexpected contact."
+},
+{
+    "question": "What is a common sign of a fake website?",
+    "options": [
+        "A carefully checked official domain",
+        "A familiar bookmark you created yourself",
+        "An unusual or misspelled domain",
+        "A website you accessed directly from an official app"
+    ],
+    "answer": "An unusual or misspelled domain",
+    "red_flags": [
+        "Misspelled domain",
+        "Look-alike address",
+        "Unexpected URL"
+    ],
+    "safe_action": "Check the website address carefully and use the official domain when possible.",
+    "explanation": "Scammers may use domains that resemble legitimate websites but contain spelling changes or other unusual features."
+},
+{
+    "question": "What should you do with a suspicious email that you believe is phishing?",
+    "options": [
+        "Click its links to investigate",
+        "Reply to the sender",
+        "Report it through the appropriate reporting option",
+        "Forward it to everyone you know"
+    ],
+    "answer": "Report it through the appropriate reporting option",
+    "red_flags": [
+        "Suspicious sender",
+        "Unexpected request",
+        "Potential phishing content"
+    ],
+    "safe_action": "Avoid interacting with the suspicious email and report it through the appropriate channel.",
+    "explanation": "Reporting suspicious messages can help the relevant service identify and respond to potential scams."
+},
+{
+    "question": "A caller claims you have won a competition and asks for your bank details to transfer the prize. What should you do?",
+    "options": [
+        "Give the bank details",
+        "Provide your account password",
+        "Verify the claim independently before sharing any information",
+        "Send a copy of your identity document"
+    ],
+    "answer": "Verify the claim independently before sharing any information",
+    "red_flags": [
+        "Unexpected prize",
+        "Request for financial information",
+        "Unsolicited call"
+    ],
+    "safe_action": "Do not share financial or identity information with an unexpected caller. Verify the claim independently.",
+    "explanation": "Unexpected prize claims combined with requests for financial information can indicate a scam."
+},
+{
+    "question": "You receive a message containing a shortened URL from an unknown sender. What is the safest action?",
+    "options": [
+        "Open it immediately",
+        "Send it to someone else to open",
+        "Avoid opening it and verify the sender and destination",
+        "Reply asking for your account details"
+    ],
+    "answer": "Avoid opening it and verify the sender and destination",
+    "red_flags": [
+        "Unknown sender",
+        "Shortened URL",
+        "Unclear destination"
+    ],
+    "safe_action": "Do not open an unexpected link. Verify the sender and use an official website when possible.",
+    "explanation": "A shortened URL can hide its destination, so an unexpected one should be treated cautiously."
+},
+{
+    "question": "Which action is safest when a website asks for more personal information than expected?",
+    "options": [
+        "Provide all the requested information",
+        "Enter information using a different password",
+        "Stop and verify why the information is being requested",
+        "Send the information by email instead"
+    ],
+    "answer": "Stop and verify why the information is being requested",
+    "red_flags": [
+        "Unexpected information request",
+        "Excessive personal details",
+        "Unclear purpose"
+    ],
+    "safe_action": "Pause and verify the request through a trusted official source before providing information.",
+    "explanation": "Unexpected requests for personal information should be checked before anything is submitted."
+},
+{
+    "question": "What should you do if you receive a suspicious phone call asking for your account password?",
+    "options": [
+        "Give the password to prove your identity",
+        "Read the password one character at a time",
+        "End the call and contact the organization through an official channel",
+        "Send the password later by message"
+    ],
+    "answer": "End the call and contact the organization through an official channel",
+    "red_flags": [
+        "Unexpected caller",
+        "Password request",
+        "Possible impersonation"
+    ],
+    "safe_action": "Never disclose your password to an unsolicited caller. Contact the organization using trusted contact information.",
+    "explanation": "An unexpected request for a password is a strong warning sign and should not be trusted."
+},
+{
+    "question": "You receive an email claiming to be from your college and asking you to confirm your account through a link. What should you do?",
+    "options": [
+        "Click the link immediately",
+        "Enter your password to confirm",
+        "Open the official college website independently and check your account",
+        "Forward the email to classmates"
+    ],
+    "answer": "Open the official college website independently and check your account",
+    "red_flags": [
+        "Unexpected account request",
+        "Link in the message",
+        "Possible impersonation"
+    ],
+    "safe_action": "Do not use the email link. Access the college service through its official website.",
+    "explanation": "Using an independently accessed official website helps avoid fraudulent links."
+},
+{
+    "question": "A message asks you to keep a prize offer secret and pay a small fee before receiving it. What should you do?",
+    "options": [
+        "Pay the fee quickly",
+        "Keep it secret and send your details",
+        "Treat it as suspicious and verify the offer independently",
+        "Ask the sender for your password"
+    ],
+    "answer": "Treat it as suspicious and verify the offer independently",
+    "red_flags": [
+        "Request for secrecy",
+        "Unexpected prize",
+        "Payment request"
+    ],
+    "safe_action": "Do not pay or share information until the offer has been independently verified.",
+    "explanation": "Unexpected prizes combined with secrecy and payment requests are warning signs of a possible scam."
+},
+{
+    "question": "Which action helps reduce the risk of malware infection?",
+    "options": [
+        "Download software from unknown websites",
+        "Open every unexpected attachment",
+        "Keep software updated and use trusted download sources",
+        "Disable security protections"
+    ],
+    "answer": "Keep software updated and use trusted download sources",
+    "red_flags": [
+        "Untrusted downloads",
+        "Outdated software",
+        "Disabled security features"
+    ],
+    "safe_action": "Keep your operating system and applications updated and download software from trusted sources.",
+    "explanation": "Updates can address security weaknesses, while trusted sources reduce exposure to malicious software."
+},
+{
+    "question": "A friend sends you a link with no explanation and asks you to click it urgently. What should you do?",
+    "options": [
+        "Click it immediately",
+        "Forward it to others",
+        "Verify with your friend through another trusted method",
+        "Enter your login details if requested"
+    ],
+    "answer": "Verify with your friend through another trusted method",
+    "red_flags": [
+        "Unexpected link",
+        "Urgency",
+        "Unusual message from a known contact"
+    ],
+    "safe_action": "Confirm that your friend actually sent the link before opening it.",
+    "explanation": "A friend's account could be compromised, so an unexpected urgent link should be verified."
+},
+{
+    "question": "A text message claims your bank detected suspicious activity and asks you to confirm your identity through a link. What should you do?",
+    "options": [
+        "Click the link and confirm immediately",
+        "Reply with your identity details",
+        "Check your bank account through its official app or website",
+        "Forward the message to your contacts"
+    ],
+    "answer": "Check your bank account through its official app or website",
+    "red_flags": [
+        "Security scare",
+        "Urgent request",
+        "Link asking for information"
+    ],
+    "safe_action": "Do not use the message link. Check your account through an official channel.",
+    "explanation": "Scammers may create fear about suspicious activity to make people click fraudulent links."
+},
+{
+    "question": "You receive a WhatsApp message containing a job offer from an unknown number and it asks for your Aadhaar or other identity document. What should you do?",
+    "options": [
+        "Send the document immediately",
+        "Send a photo of your ID card",
+        "Verify the employer through an official source before sharing information",
+        "Forward your document to the sender's friends"
+    ],
+    "answer": "Verify the employer through an official source before sharing information",
+    "red_flags": [
+        "Unknown contact",
+        "Unexpected job offer",
+        "Request for identity documents"
+    ],
+    "safe_action": "Verify the employer independently and avoid sharing identity documents with an unverified contact.",
+    "explanation": "Unexpected requests for identity documents can expose sensitive personal information."
+},
+{
+    "question": "A website address looks almost identical to a trusted company's address but contains an extra character. What should you do?",
+    "options": [
+        "Enter your password anyway",
+        "Assume it is safe because the name looks familiar",
+        "Leave the site and use the trusted company's official address",
+        "Enter only part of your information"
+    ],
+    "answer": "Leave the site and use the trusted company's official address",
+    "red_flags": [
+        "Look-alike domain",
+        "Unexpected character",
+        "Possible impersonation"
+    ],
+    "safe_action": "Do not enter information on the suspicious site. Navigate to the official website independently.",
+    "explanation": "Small changes in a domain can be used to imitate legitimate websites."
+},
+{
+    "question": "What should you do if ransomware makes your files inaccessible?",
+    "options": [
+        "Ignore the incident",
+        "Follow random instructions from the attacker",
+        "Report the incident and follow appropriate security procedures",
+        "Share the affected files with others"
+    ],
+    "answer": "Report the incident and follow appropriate security procedures",
+    "red_flags": [
+        "Files inaccessible",
+        "Possible ransomware",
+        "Unauthorized system activity"
+    ],
+    "safe_action": "Report the incident promptly and follow guidance from your organization's security team or appropriate authority.",
+    "explanation": "Ransomware incidents should be handled through appropriate security and reporting procedures rather than interacting with attackers."
+},
+{
+    "question": "An email says your package cannot be delivered unless you pay a small fee through a link. What should you do?",
+    "options": [
+        "Pay through the link immediately",
+        "Enter your card details to continue",
+        "Check the delivery through the courier's official website or app",
+        "Reply with your full address and password"
+    ],
+    "answer": "Check the delivery through the courier's official website or app",
+    "red_flags": [
+        "Unexpected payment request",
+        "Link in the message",
+        "Delivery pressure"
+    ],
+    "safe_action": "Verify the delivery independently using the courier's official service.",
+    "explanation": "Unexpected delivery fees and links can be used in smishing scams."
+},
+{
+    "question": "Which practice is safest when using public computers?",
+    "options": [
+        "Save your passwords in the browser",
+        "Leave your account signed in",
+        "Avoid saving sensitive information and sign out completely",
+        "Share your login details with the next user"
+    ],
+    "answer": "Avoid saving sensitive information and sign out completely",
+    "red_flags": [
+        "Shared computer",
+        "Saved credentials",
+        "Active sessions"
+    ],
+    "safe_action": "Do not save passwords on public computers and always sign out after use.",
+    "explanation": "Other people may be able to access accounts or saved information if a session remains active."
+},
+{
+    "question": "A caller asks you to install a remote-access application to receive a refund. What should you do?",
+    "options": [
+        "Install it immediately",
+        "Give the caller remote access",
+        "End the call and verify the refund through the company's official channel",
+        "Give the caller your account password"
+    ],
+    "answer": "End the call and verify the refund through the company's official channel",
+    "red_flags": [
+        "Unexpected call",
+        "Remote-access request",
+        "Refund claim"
+    ],
+    "safe_action": "Do not install unknown remote-access software because of an unsolicited call.",
+    "explanation": "Unexpected remote-access requests can allow someone to control or inspect your device."
+},
+{
+    "question": "What should you do if an online account sends an MFA notification that you did not request?",
+    "options": [
+        "Approve it immediately",
+        "Share the notification with someone",
+        "Do not approve it and check the account security through the official service",
+        "Disable all account security"
+    ],
+    "answer": "Do not approve it and check the account security through the official service",
+    "red_flags": [
+        "Unexpected MFA request",
+        "Possible unauthorized login",
+        "Unrecognized activity"
+    ],
+    "safe_action": "Do not approve unexpected authentication requests and review your account security.",
+    "explanation": "An unexpected MFA request may indicate that someone is attempting to access the account."
+},
+{
+    "question": "You receive an email from an unknown sender offering a free gift if you complete a survey using a link. What should you do?",
+    "options": [
+        "Open the link and complete the survey",
+        "Provide your personal information",
+        "Ignore the link and verify the offer through an official source",
+        "Forward the email to your friends"
+    ],
+    "answer": "Ignore the link and verify the offer through an official source",
+    "red_flags": [
+        "Unexpected gift",
+        "Unknown sender",
+        "Suspicious link"
+    ],
+    "safe_action": "Avoid the link and verify unexpected offers independently.",
+    "explanation": "Free-gift offers from unknown senders can be used to trick people into visiting fraudulent websites."
+},
+{
+    "question": "A message asks you to send a copy of your identity card to receive a prize. What is the safest response?",
+    "options": [
+        "Send the document immediately",
+        "Send only the front side",
+        "Verify the organization and the request through an official channel",
+        "Post the document publicly"
+    ],
+    "answer": "Verify the organization and the request through an official channel",
+    "red_flags": [
+        "Unexpected prize",
+        "Identity document request",
+        "Unverified organization"
+    ],
+    "safe_action": "Do not send identity documents until the request and organization have been independently verified.",
+    "explanation": "Identity documents contain sensitive information and should not be shared with unverified contacts."
+},
+{
+    "question": "Which action can help protect an account if a password is exposed?",
+    "options": [
+        "Reuse the exposed password everywhere",
+        "Change the password and use a unique one",
+        "Share the password with a friend",
+        "Disable MFA"
+    ],
+    "answer": "Change the password and use a unique one",
+    "red_flags": [
+        "Exposed password",
+        "Password reuse",
+        "Missing additional protection"
+    ],
+    "safe_action": "Change a compromised password promptly and avoid reusing it on other accounts.",
+    "explanation": "A password that may have been exposed should no longer be trusted, especially if it is reused elsewhere."
+},
+{
+    "question": "A website displays a warning that your device is infected and tells you to call a number immediately. What should you do?",
+    "options": [
+        "Call the number immediately",
+        "Give the caller remote access",
+        "Close the warning and use trusted security or support resources",
+        "Provide your computer password"
+    ],
+    "answer": "Close the warning and use trusted security or support resources",
+    "red_flags": [
+        "Unexpected infection warning",
+        "Urgent phone number",
+        "Pressure to act"
+    ],
+    "safe_action": "Do not call numbers displayed by suspicious pop-ups. Use trusted security or support channels instead.",
+    "explanation": "Fake security warnings may use alarming messages to persuade users to contact scammers."
+},
+{
+    "question": "You receive a message claiming to be from your bank and asking you to confirm a transaction you do not recognize through a link. What should you do?",
+    "options": [
+        "Click the link and confirm the transaction",
+        "Enter your card details",
+        "Open the official banking app and check the transaction",
+        "Reply with your account number"
+    ],
+    "answer": "Open the official banking app and check the transaction",
+    "red_flags": [
+        "Unexpected transaction alert",
+        "Link-based verification",
+        "Request for financial information"
+    ],
+    "safe_action": "Do not use the message link. Check the transaction through the official banking app or website.",
+    "explanation": "Checking directly through the official banking service avoids potentially fraudulent links."
+},
+{
+    "question": "Someone sends you a WhatsApp link promising a quick way to earn money and asks you to pay a joining fee. What should you do?",
+    "options": [
+        "Pay the fee",
+        "Click the link and register",
+        "Verify the opportunity through an official source before doing anything",
+        "Send your bank password"
+    ],
+    "answer": "Verify the opportunity through an official source before doing anything",
+    "red_flags": [
+        "Quick-money promise",
+        "Joining fee",
+        "Unexpected WhatsApp offer"
+    ],
+    "safe_action": "Do not pay or share financial information until the opportunity has been independently verified.",
+    "explanation": "Promises of easy money combined with upfront fees are common warning signs of scams."
+},
+{
+    "question": "What is a good reason to use a password manager?",
+    "options": [
+        "It lets you share passwords publicly",
+        "It can help create and manage unique passwords",
+        "It removes the need for MFA",
+        "It makes suspicious websites safe"
+    ],
+    "answer": "It can help create and manage unique passwords",
+    "red_flags": [
+        "Password reuse",
+        "Weak passwords",
+        "Poor password management"
+    ],
+    "safe_action": "Use a reputable password manager to help manage strong, unique passwords.",
+    "explanation": "Password managers can help users maintain different strong passwords for different accounts."
+},
+{
+    "question": "You receive a phone call claiming that your account has been hacked and the caller needs your OTP to secure it. What should you do?",
+    "options": [
+        "Give the OTP to the caller",
+        "Read the OTP aloud",
+        "End the call and contact the organization through an official channel",
+        "Send the OTP by text"
+    ],
+    "answer": "End the call and contact the organization through an official channel",
+    "red_flags": [
+        "Unexpected security call",
+        "OTP request",
+        "Fear-based pressure"
+    ],
+    "safe_action": "Never share an OTP with an unsolicited caller. Verify the situation using trusted contact information.",
+    "explanation": "An OTP is used to verify access and should not be disclosed to an unexpected caller."
+},
+{
+    "question": "You receive an email saying your password will expire today and providing a link to update it. What should you do?",
+    "options": [
+        "Click the link and enter your password",
+        "Reply with your password",
+        "Access the service through its official website or app",
+        "Forward the email to your contacts"
+    ],
+    "answer": "Access the service through its official website or app",
+    "red_flags": [
+        "Urgent password warning",
+        "Unexpected link",
+        "Login information request"
+    ],
+    "safe_action": "Do not use the email link. Open the official service directly and check your account.",
+    "explanation": "Phishing emails may use password-expiry warnings to direct users to fake login pages."
+},
+{
+    "question": "A WhatsApp message from an unknown number says you have received a government benefit and asks for your bank details. What should you do?",
+    "options": [
+        "Send your bank details",
+        "Send your account password",
+        "Verify the benefit through the official government source",
+        "Forward the message to your family"
+    ],
+    "answer": "Verify the benefit through the official government source",
+    "red_flags": [
+        "Unknown number",
+        "Unexpected benefit",
+        "Request for financial information"
+    ],
+    "safe_action": "Do not share financial information until the claim is independently verified through an official source.",
+    "explanation": "Unexpected benefit messages can be used to collect financial or personal information."
+},
+{
+    "question": "What is the safest response to an unexpected email attachment from an unknown sender?",
+    "options": [
+        "Open it immediately",
+        "Download it and send it to a friend",
+        "Avoid opening it and report or delete the suspicious message",
+        "Disable antivirus protection before opening it"
+    ],
+    "answer": "Avoid opening it and report or delete the suspicious message",
+    "red_flags": [
+        "Unknown sender",
+        "Unexpected attachment",
+        "Potential malicious file"
+    ],
+    "safe_action": "Do not open unexpected attachments. Report or delete suspicious messages according to the appropriate procedure.",
+    "explanation": "Unknown attachments can contain malicious files or lead to unsafe websites."
+},
+{
+    "question": "Why should you check the spelling of a website domain before entering sensitive information?",
+    "options": [
+        "Spelling has no security relevance",
+        "A slightly changed domain may be an imitation of a legitimate website",
+        "It makes the website load faster",
+        "It automatically enables MFA"
+    ],
+    "answer": "A slightly changed domain may be an imitation of a legitimate website",
+    "red_flags": [
+        "Changed spelling",
+        "Look-alike domain",
+        "Potential impersonation"
+    ],
+    "safe_action": "Carefully check the domain and use the organization's known official address.",
+    "explanation": "Look-alike domains can be created to imitate trusted organizations and deceive users."
+},
+{
+    "question": "A caller claims to be from your email provider and asks for your verification code. What should you do?",
+    "options": [
+        "Give the code to the caller",
+        "Read the code aloud",
+        "End the call and contact the provider through an official channel",
+        "Send the code by text message"
+    ],
+    "answer": "End the call and contact the provider through an official channel",
+    "red_flags": [
+        "Unexpected caller",
+        "Verification-code request",
+        "Possible impersonation"
+    ],
+    "safe_action": "Never share verification codes with unsolicited callers. Verify the situation independently.",
+    "explanation": "Verification codes are security credentials and should not be shared with unexpected callers."
+},
+{
+    "question": "A message says you must install an unknown app to receive a refund. What should you do?",
+    "options": [
+        "Install the app immediately",
+        "Give the app all requested permissions",
+        "Verify the refund through the official company service",
+        "Share the installation link with friends"
+    ],
+    "answer": "Verify the refund through the official company service",
+    "red_flags": [
+        "Unexpected refund",
+        "Unknown application",
+        "Pressure to install software"
+    ],
+    "safe_action": "Do not install unknown applications based on unsolicited messages. Verify the refund independently.",
+    "explanation": "Unknown applications may contain malware or request unnecessary access to your device."
+},
+{
+    "question": "What should you do if a suspicious message asks for your date of birth, address, and other personal details?",
+    "options": [
+        "Provide all the details",
+        "Send only your date of birth",
+        "Do not provide the information until the request is verified",
+        "Post the details publicly"
+    ],
+    "answer": "Do not provide the information until the request is verified",
+    "red_flags": [
+        "Unexpected personal-information request",
+        "Unverified sender",
+        "Multiple sensitive details"
+    ],
+    "safe_action": "Verify why the information is needed and who is requesting it before sharing anything.",
+    "explanation": "Personal information can be misused, so unexpected requests should be independently verified."
+},
+{
+    "question": "Which action is safest when you receive a suspicious link in a group chat?",
+    "options": [
+        "Open it to see what it contains",
+        "Forward it to another group",
+        "Avoid opening it and verify its source",
+        "Enter your login details if the page asks"
+    ],
+    "answer": "Avoid opening it and verify its source",
+    "red_flags": [
+        "Suspicious link",
+        "Unknown source",
+        "Group-message pressure"
+    ],
+    "safe_action": "Do not open suspicious links. Verify the source using a trusted method.",
+    "explanation": "Links shared in group chats can lead to fraudulent websites or malicious content."
+},
+{
+    "question": "You receive an SMS saying your electricity bill is overdue and your connection will be disconnected today unless you pay through a link. What should you do?",
+    "options": [
+        "Pay through the link immediately",
+        "Reply with your account details",
+        "Check your bill through the provider's official website or app",
+        "Forward the message to your contacts"
+    ],
+    "answer": "Check your bill through the provider's official website or app",
+    "red_flags": [
+        "Urgent threat",
+        "Payment request",
+        "Suspicious link"
+    ],
+    "safe_action": "Do not use the SMS link. Check your bill through the provider's official service.",
+    "explanation": "Threats of immediate service disconnection combined with payment links are common scam warning signs."
+},
+{
+    "question": "An online advertisement promises a very expensive product for an unusually low price and asks you to pay through an unfamiliar website. What should you do?",
+    "options": [
+        "Pay immediately because the offer is limited",
+        "Enter your card details",
+        "Research the seller and use a trusted official or reputable platform",
+        "Share the offer with everyone"
+    ],
+    "answer": "Research the seller and use a trusted official or reputable platform",
+    "red_flags": [
+        "Unusually low price",
+        "Unfamiliar website",
+        "Pressure to purchase"
+    ],
+    "safe_action": "Verify the seller and website before making a payment.",
+    "explanation": "Unusually attractive offers on unfamiliar websites can be used to trick people into making unsafe payments."
+},
+{
+    "question": "A social media account sends you a message asking you to vote in a contest using a login link. What should you do?",
+    "options": [
+        "Enter your username and password",
+        "Click the link and log in",
+        "Verify the contest through the official platform before using any link",
+        "Send your password to the account"
+    ],
+    "answer": "Verify the contest through the official platform before using any link",
+    "red_flags": [
+        "Unexpected message",
+        "Login link",
+        "Possible account impersonation"
+    ],
+    "safe_action": "Check the contest independently and avoid entering credentials through an unexpected link.",
+    "explanation": "Attackers can use fake contests and login pages to collect account credentials."
+},
+{
+    "question": "What is the safest response when an unknown person asks you to share your MFA code?",
+    "options": [
+        "Share it if they know your name",
+        "Share it after they explain the reason",
+        "Keep the code private and do not share it",
+        "Post it in a private group"
+    ],
+    "answer": "Keep the code private and do not share it",
+    "red_flags": [
+        "MFA-code request",
+        "Unknown person",
+        "Possible account takeover"
+    ],
+    "safe_action": "Keep MFA codes private and never disclose them to another person.",
+    "explanation": "MFA codes are intended to verify the account holder and should not be shared."
+},
+{
+    "question": "You receive a message saying your social media account has violated a rule and will be deleted unless you click a link. What should you do?",
+    "options": [
+        "Click the link immediately",
+        "Enter your password to appeal",
+        "Check your account through the official social media app or website",
+        "Send the message to your friends"
+    ],
+    "answer": "Check your account through the official social media app or website",
+    "red_flags": [
+        "Threat of account deletion",
+        "Urgent request",
+        "Suspicious link"
+    ],
+    "safe_action": "Do not use the message link. Check account notifications through the official app or website.",
+    "explanation": "Scammers may use threats of account deletion to make users click fake login links."
+},
+{
+    "question": "A friend sends you a message asking for your OTP because they say they are helping you recover your account. What should you do?",
+    "options": [
+        "Send the OTP",
+        "Send a screenshot of the OTP",
+        "Keep the OTP private and use the official recovery process",
+        "Post the OTP in a private group"
+    ],
+    "answer": "Keep the OTP private and use the official recovery process",
+    "red_flags": [
+        "OTP request",
+        "Account recovery story",
+        "Unexpected request"
+    ],
+    "safe_action": "Never share an OTP. Use the service's official account-recovery process.",
+    "explanation": "An OTP is used to verify access and should remain private even when someone claims to be helping."
+},
+{
+    "question": "An email attachment has a file type you do not recognize and comes from an unexpected sender. What should you do?",
+    "options": [
+        "Open it to find out what it is",
+        "Download it and rename it",
+        "Avoid opening it and verify the sender",
+        "Forward it to another person"
+    ],
+    "answer": "Avoid opening it and verify the sender",
+    "red_flags": [
+        "Unknown file type",
+        "Unexpected attachment",
+        "Unknown or unverified sender"
+    ],
+    "safe_action": "Do not open unexpected files. Verify the sender and attachment through a trusted method.",
+    "explanation": "Unknown attachments can contain malicious content, so they should be verified before opening."
+},
+{
+    "question": "What is a safe way to handle a suspicious message that you receive repeatedly?",
+    "options": [
+        "Keep clicking the links",
+        "Reply to every message",
+        "Avoid interacting with it and report or block it when appropriate",
+        "Share it with more people"
+    ],
+    "answer": "Avoid interacting with it and report or block it when appropriate",
+    "red_flags": [
+        "Repeated suspicious messages",
+        "Unwanted contact",
+        "Potential scam activity"
+    ],
+    "safe_action": "Do not interact with suspicious messages. Use the platform's reporting or blocking features when appropriate.",
+    "explanation": "Avoiding interaction reduces exposure to malicious links and requests, while reporting can help address scam activity."
+},
+{
+    "question": "A message claims you must verify your identity within 10 minutes or your account will be locked. What should you do?",
+    "options": [
+        "Click the verification link immediately",
+        "Send your password",
+        "Access the account through its official app or website",
+        "Forward the message to a friend"
+    ],
+    "answer": "Access the account through its official app or website",
+    "red_flags": [
+        "Artificial deadline",
+        "Account-lock threat",
+        "Verification link"
+    ],
+    "safe_action": "Ignore the message link and check your account directly through the official service.",
+    "explanation": "Artificial deadlines and account-lock threats are commonly used to pressure people into unsafe actions."
+},
+{
+    "question": "You receive a call from someone claiming to be your internet provider and asking for your password to fix a problem. What should you do?",
+    "options": [
+        "Give the password",
+        "Read the password over the phone",
+        "End the call and contact the provider through an official number",
+        "Send the password by SMS"
+    ],
+    "answer": "End the call and contact the provider through an official number",
+    "red_flags": [
+        "Unexpected support call",
+        "Password request",
+        "Possible impersonation"
+    ],
+    "safe_action": "Do not share your password with an unsolicited caller. Contact the provider independently.",
+    "explanation": "Unexpected callers requesting passwords may be impersonating legitimate support staff."
+},
+{
+    "question": "A website asks you to disable your browser's security warning before downloading a file. What should you do?",
+    "options": [
+        "Disable the warning and download it",
+        "Ignore the warning",
+        "Avoid the download and use a trusted official source",
+        "Disable all security settings permanently"
+    ],
+    "answer": "Avoid the download and use a trusted official source",
+    "red_flags": [
+        "Security warning",
+        "Request to disable protection",
+        "Untrusted download"
+    ],
+    "safe_action": "Keep security protections enabled and obtain software from trusted sources.",
+    "explanation": "Security warnings can indicate that a download or website may be unsafe."
+},
+{
+    "question": "What should you do if you suspect that your email account has been compromised?",
+    "options": [
+        "Ignore the warning",
+        "Share your password with a friend",
+        "Secure the account using the official recovery or security process",
+        "Post your login details online"
+    ],
+    "answer": "Secure the account using the official recovery or security process",
+    "red_flags": [
+        "Suspicious account activity",
+        "Possible unauthorized access",
+        "Security warning"
+    ],
+    "safe_action": "Use the provider's official security and recovery procedures to secure the account.",
+    "explanation": "Using the official recovery process helps address possible unauthorized access without relying on untrusted contacts."
+},
+{
+    "question": "You receive an SMS saying your bank card has been blocked and asking you to click a link to reactivate it. What should you do?",
+    "options": [
+        "Click the link and enter your card details",
+        "Reply with your PIN",
+        "Check your card status through the official banking app or website",
+        "Forward the message to your friends"
+    ],
+    "answer": "Check your card status through the official banking app or website",
+    "red_flags": [
+        "Card-blocking threat",
+        "Urgent action",
+        "Suspicious link"
+    ],
+    "safe_action": "Do not use the SMS link. Check your card status through the official banking service.",
+    "explanation": "Scammers can use account or card-blocking threats to make people click fraudulent links."
+},
+{
+    "question": "A person online offers to double your money if you first send them a small payment. What should you do?",
+    "options": [
+        "Send the payment immediately",
+        "Send your bank password",
+        "Treat the offer as suspicious and verify it independently",
+        "Share your account details"
+    ],
+    "answer": "Treat the offer as suspicious and verify it independently",
+    "red_flags": [
+        "Unrealistic financial promise",
+        "Upfront payment",
+        "Unknown person"
+    ],
+    "safe_action": "Do not send money or financial information based on an unverified promise.",
+    "explanation": "Promises of guaranteed or unusually high returns combined with upfront payments are warning signs of potential scams."
+},
+{
+    "question": "A message contains a link with a strange combination of letters and numbers instead of a familiar website address. What should you do?",
+    "options": [
+        "Click it to investigate",
+        "Enter your login details",
+        "Avoid the link and access the service through its official website",
+        "Forward the link to another person"
+    ],
+    "answer": "Avoid the link and access the service through its official website",
+    "red_flags": [
+        "Unfamiliar URL",
+        "Unexpected link",
+        "Unclear destination"
+    ],
+    "safe_action": "Avoid unfamiliar links and navigate directly to the trusted service.",
+    "explanation": "An unfamiliar URL may lead to a fraudulent or malicious website."
+},
+{
+    "question": "What should you do when an online form requests sensitive information without clearly explaining why it is needed?",
+    "options": [
+        "Complete the form immediately",
+        "Enter false information",
+        "Stop and verify the organization and purpose of the request",
+        "Share the form with friends"
+    ],
+    "answer": "Stop and verify the organization and purpose of the request",
+    "red_flags": [
+        "Unclear purpose",
+        "Sensitive information request",
+        "Unverified organization"
+    ],
+    "safe_action": "Verify the organization and reason for collecting the information before submitting it.",
+    "explanation": "Sensitive information should only be provided when the request and its purpose are trustworthy and clear."
+},
+{
+    "question": "You receive an email saying your account has been selected for a security upgrade and asks you to log in using a link. What should you do?",
+    "options": [
+        "Log in through the email link",
+        "Send your password by reply",
+        "Open the official service directly and check for notifications",
+        "Forward the email to your contacts"
+    ],
+    "answer": "Open the official service directly and check for notifications",
+    "red_flags": [
+        "Unexpected security message",
+        "Login link",
+        "Possible impersonation"
+    ],
+    "safe_action": "Avoid the email link and check the account through the official service.",
+    "explanation": "Phishing messages can imitate security notifications and direct users to fake login pages."
+},
+{
+    "question": "A stranger sends you a message asking you to receive money in your account and transfer it to another account. What should you do?",
+    "options": [
+        "Accept the money and transfer it",
+        "Give the person your banking password",
+        "Refuse and avoid participating in the transaction",
+        "Share your account details publicly"
+    ],
+    "answer": "Refuse and avoid participating in the transaction",
+    "red_flags": [
+        "Unexpected financial request",
+        "Unknown person",
+        "Request to transfer money"
+    ],
+    "safe_action": "Do not allow unknown people to use your account for financial transfers.",
+    "explanation": "Unexpected requests to move money through your account can expose you to financial and security risks."
+},
+{
+    "question": "A website asks you to enter your OTP to unlock a special discount. What should you do?",
+    "options": [
+        "Enter the OTP",
+        "Send the OTP to the website operator",
+        "Do not share the OTP and leave the suspicious page",
+        "Take a screenshot of the OTP and upload it"
+    ],
+    "answer": "Do not share the OTP and leave the suspicious page",
+    "red_flags": [
+        "OTP request",
+        "Unusual discount offer",
+        "Suspicious website"
+    ],
+    "safe_action": "Never enter or share an OTP on an unexpected or suspicious page.",
+    "explanation": "An OTP is a security verification code and should not be disclosed for unrelated offers or discounts."
+},
+{
+    "question": "Which action is safest when you receive a suspicious link from a known contact?",
+    "options": [
+        "Trust it automatically because you know the person",
+        "Click it quickly",
+        "Verify with the contact through another trusted method",
+        "Enter your password if the link requests it"
+    ],
+    "answer": "Verify with the contact through another trusted method",
+    "red_flags": [
+        "Unexpected link",
+        "Known account may be compromised",
+        "Unusual message"
+    ],
+    "safe_action": "Confirm that the contact actually sent the link before opening it.",
+    "explanation": "A known person's account can be compromised, so unexpected links should still be verified."
+},
+{
+    "question": "You receive a message saying you must confirm your identity by sending a photo of your ID and a selfie. What should you do?",
+    "options": [
+        "Send both immediately",
+        "Send only the selfie",
+        "Verify the organization and request through an official channel",
+        "Post the documents in a group"
+    ],
+    "answer": "Verify the organization and request through an official channel",
+    "red_flags": [
+        "Unexpected identity request",
+        "Sensitive documents",
+        "Unverified sender"
+    ],
+    "safe_action": "Verify the request independently before sharing identity documents or photographs.",
+    "explanation": "Identity documents and photographs contain sensitive information and should only be shared with a verified organization for a legitimate purpose."
+},
+{
+    "question": "A pop-up says your computer has a serious problem and asks you to download a program immediately. What should you do?",
+    "options": [
+        "Download the program immediately",
+        "Give the website remote access",
+        "Close the pop-up and use trusted security software or support",
+        "Enter your computer password"
+    ],
+    "answer": "Close the pop-up and use trusted security software or support",
+    "red_flags": [
+        "Unexpected warning",
+        "Urgent download request",
+        "Unknown software"
+    ],
+    "safe_action": "Do not install software from suspicious pop-ups. Use trusted security tools or support channels.",
+    "explanation": "Fake security pop-ups may try to persuade users to install malicious or unwanted software."
+},
+{
+    "question": "You receive an email asking you to reply with your account password to complete a security check. What should you do?",
+    "options": [
+        "Reply with the password",
+        "Send the password in a separate message",
+        "Do not share the password and verify the request through the official service",
+        "Share the password with a coworker first"
+    ],
+    "answer": "Do not share the password and verify the request through the official service",
+    "red_flags": [
+        "Password request",
+        "Unexpected security check",
+        "Email-based credential request"
+    ],
+    "safe_action": "Never send your password by email. Verify account security through the official service.",
+    "explanation": "Passwords are private credentials and should not be disclosed through unexpected messages."
+},
+{
+    "question": "What is the safest response to a message promising a guaranteed job with high income and asking for an upfront fee?",
+    "options": [
+        "Pay the fee immediately",
+        "Send your identity documents",
+        "Verify the employer independently and avoid paying an unverified fee",
+        "Share your bank password"
+    ],
+    "answer": "Verify the employer independently and avoid paying an unverified fee",
+    "red_flags": [
+        "Guaranteed job promise",
+        "Unusually high income claim",
+        "Upfront fee"
+    ],
+    "safe_action": "Research the employer through official sources and do not pay an unverified recruitment fee.",
+    "explanation": "Unverified job offers combined with upfront payment requests can be warning signs of employment scams."
+},
+{
+    "question": "A message says your account will be permanently deleted unless you verify it within one hour. What should you do?",
+    "options": [
+        "Click the verification link immediately",
+        "Send your password to prove ownership",
+        "Check the account through the official app or website",
+        "Forward the message to everyone"
+    ],
+    "answer": "Check the account through the official app or website",
+    "red_flags": [
+        "Artificial deadline",
+        "Account deletion threat",
+        "Verification link"
+    ],
+    "safe_action": "Ignore the message link and verify your account through the official service.",
+    "explanation": "Artificial deadlines and deletion threats are commonly used to pressure users into unsafe actions."
+},
+{
+    "question": "You receive a WhatsApp message claiming to be from customer support and asking for your login password. What should you do?",
+    "options": [
+        "Send the password",
+        "Send the password privately",
+        "Refuse to share it and contact the service through its official support channel",
+        "Share the password with a friend first"
+    ],
+    "answer": "Refuse to share it and contact the service through its official support channel",
+    "red_flags": [
+        "Password request",
+        "Unexpected support message",
+        "Possible impersonation"
+    ],
+    "safe_action": "Never share your password through WhatsApp or other unexpected messages.",
+    "explanation": "An unexpected request for a password is a strong warning sign of possible impersonation."
+},
+{
+    "question": "What should you do if you receive a suspicious message containing a QR code?",
+    "options": [
+        "Scan it immediately",
+        "Scan it and enter your password",
+        "Avoid scanning it until its source and purpose are verified",
+        "Send the QR code to another person"
+    ],
+    "answer": "Avoid scanning it until its source and purpose are verified",
+    "red_flags": [
+        "Unknown QR code",
+        "Unexpected message",
+        "Unclear destination"
+    ],
+    "safe_action": "Verify the source before scanning an unexpected QR code or following the destination it opens.",
+    "explanation": "A QR code can direct you to an unsafe website, so unexpected codes should be treated cautiously."
+},
+{
+    "question": "Which practice helps protect your accounts from phishing attacks?",
+    "options": [
+        "Using the same password everywhere",
+        "Sharing verification codes",
+        "Using MFA and checking messages before acting",
+        "Clicking links from unknown senders"
+    ],
+    "answer": "Using MFA and checking messages before acting",
+    "red_flags": [
+        "Password reuse",
+        "Shared verification codes",
+        "Unverified links"
+    ],
+    "safe_action": "Use MFA and pause to verify unexpected requests before clicking links or sharing information.",
+    "explanation": "MFA provides additional account protection, while careful verification can help prevent phishing-related mistakes."
+},
+{
+    "question": "You receive an email claiming you have an unpaid bill and must pay immediately through a link. What should you do?",
+    "options": [
+        "Pay through the link immediately",
+        "Enter your card details",
+        "Check the bill through the company's official website or app",
+        "Reply with your bank details"
+    ],
+    "answer": "Check the bill through the company's official website or app",
+    "red_flags": [
+        "Unexpected bill",
+        "Urgent payment request",
+        "Suspicious link"
+    ],
+    "safe_action": "Do not use the email link. Verify the bill through the company's official service.",
+    "explanation": "Unexpected payment requests combined with urgency and links can be signs of phishing."
+},
+{
+    "question": "A stranger contacts you online claiming they can recover your hacked account if you pay them first. What should you do?",
+    "options": [
+        "Pay immediately",
+        "Give them your password",
+        "Use the service's official account-recovery process",
+        "Send them your verification code"
+    ],
+    "answer": "Use the service's official account-recovery process",
+    "red_flags": [
+        "Unsolicited recovery offer",
+        "Payment request",
+        "Unknown person"
+    ],
+    "safe_action": "Use only the organization's official account-recovery and support channels.",
+    "explanation": "An unsolicited person offering account recovery for payment may be attempting to scam you."
+},
+{
+    "question": "What should you do after recognizing a phishing message?",
+    "options": [
+        "Click the link to investigate",
+        "Reply to the sender",
+        "Avoid interacting with it and report it through the appropriate channel",
+        "Forward it to many people"
+    ],
+    "answer": "Avoid interacting with it and report it through the appropriate channel",
+    "red_flags": [
+        "Suspicious request",
+        "Potential malicious link",
+        "Unknown or untrusted sender"
+    ],
+    "safe_action": "Do not interact with suspicious content. Report it using the appropriate reporting mechanism.",
+    "explanation": "Avoiding interaction reduces risk, while reporting helps the relevant service respond to suspicious activity."
+},
+{
+    "question": "You receive a message asking for your password, OTP, and bank details to complete a supposed account verification. What should you do?",
+    "options": [
+        "Provide everything requested",
+        "Provide only the OTP",
+        "Do not share the information and verify the request through an official channel",
+        "Send the information after forwarding the message"
+    ],
+    "answer": "Do not share the information and verify the request through an official channel",
+    "red_flags": [
+        "Password request",
+        "OTP request",
+        "Bank-detail request"
+    ],
+    "safe_action": "Do not share passwords, OTPs, or financial information through unexpected messages. Verify independently.",
+    "explanation": "Requests for multiple sensitive credentials through an unexpected message are strong warning signs of a phishing or scam attempt."
+}
+]
